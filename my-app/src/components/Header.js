@@ -13,12 +13,12 @@ function Header() {
             </LogoWrapper>
         
             <HomePageButton>
-                    <a href='/'>Following</a>
+                    <a href='/'>Home</a>
             </HomePageButton>
                     
-            {/* <FollowingButton>
+            <FollowingButton>
                     <a href='/'>Following</a>
-            </FollowingButton> */}
+            </FollowingButton>
 
             {/* <SearchWrapper>
                 <SearchBarWrapper>
@@ -50,14 +50,16 @@ const LogoWrapper = styled.div`
         cursor: pointer;
     )
 `
-const HomePageButton = styled.div`
+const HomeButtons = styled.div`
     display: flex;
     height: 48px;
-    min-width: 123px;
     align-items: center;
     justify-content: center;
     border-radius: 24px;
     cursor: pointer;
+`
+const HomePageButton = styled(HomeButtons)`
+    min-width: 80px;
     background-color: rgb(17,17,17);
             
     a {
@@ -66,4 +68,19 @@ const HomePageButton = styled.div`
         font-weight: 700;
     }
 
+`
+const FollowingButton = styled(HomeButtons)`
+    min-width: 123px;
+    background-color: white;
+
+    a{
+        text-decoration: none;
+        color: black;
+        font-weight: 700;
+        cursor: pointer;
+    }
+
+    :hover {
+        background-color: #e1e1e1;
+    }
 `
