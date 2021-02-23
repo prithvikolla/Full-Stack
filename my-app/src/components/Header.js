@@ -20,12 +20,18 @@ function Header() {
                     <a href='/'>Following</a>
             </FollowingButton>
 
-            {/* <SearchWrapper>
+            <SearchWrapper>
                 <SearchBarWrapper>
-
+                    <IconButton>
+                        <SearchIcon/>
+                    </IconButton>
+                    <form>
+                        <input type="text"/>
+                        <button type="submit"></button>
+                     </form>                   
                 </SearchBarWrapper>
             </SearchWrapper>
-            <IconsWrapper>
+            {/* <IconsWrapper>
 
             </IconsWrapper> */}
 
@@ -83,4 +89,7 @@ const FollowingButton = styled(HomeButtons)`
     :hover {
         background-color: #e1e1e1;
     }
+`
+const SearchWrapper= styled.div`
+    
 `
