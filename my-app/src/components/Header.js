@@ -2,6 +2,10 @@ import React from 'react';
 import PinterestIcon from '@material-ui/icons/Pinterest';
 import SearchIcon from '@material-ui/icons/Search';
 import IconButton from '@material-ui/core/IconButton';
+import NotificationsIcon from '@material-ui/icons/Notifications';
+import TextsmsIcon from '@material-ui/icons/Textsms';
+import FaceIcon from '@material-ui/icons/Face';
+import KeyboardArrowDownIcon from '@material-ui/icons/KeyboardArrowDown';
 import styled from 'styled-components';
 function Header() {
     return (
@@ -34,24 +38,16 @@ function Header() {
             </SearchWrapper>
             <IconsWrapper>
                 <IconButton>
-                    <NotificationIcon>
-                        
-                    </NotificationIcon>
+                    <NotificationsIcon/>
                 </IconButton>
                 <IconButton>
-                    <TextSmsIcon>
-
-                    </TextSmsIcon>
+                    <TextsmsIcon/>
                 </IconButton>
                 <IconButton>
-                    <FaceIcon>
-
-                    </FaceIcon>
+                    <FaceIcon/>
                 </IconButton>
                 <IconButton>
-                    <KeyboardArrowDownIcon>
-                        
-                    </KeyboardArrowDownIcon>                    
+                    <KeyboardArrowDownIcon/>              
                 </IconButton>
             </IconsWrapper>
 
