@@ -32,9 +32,28 @@ function Header() {
                      </form>                   
                 </SearchBarWrapper>
             </SearchWrapper>
-            {/* <IconsWrapper>
+            <IconsWrapper>
+                <IconButton>
+                    <NotificationIcon>
+                        
+                    </NotificationIcon>
+                </IconButton>
+                <IconButton>
+                    <TextSmsIcon>
 
-            </IconsWrapper> */}
+                    </TextSmsIcon>
+                </IconButton>
+                <IconButton>
+                    <FaceIcon>
+
+                    </FaceIcon>
+                </IconButton>
+                <IconButton>
+                    <KeyboardArrowDownIcon>
+                        
+                    </KeyboardArrowDownIcon>                    
+                </IconButton>
+            </IconsWrapper>
 
             </Wrapper>
     )
