@@ -141,3 +141,7 @@ const SearchBarWrapper = styled.div`
         background-color: #e1e1e1;
     }
 `
+
+const IconsWrapper = styled.div `
+
+`
