@@ -20,7 +20,7 @@ return (
 export default Mainboard
 
 const Wrapper = styled.div`
-    background-color: black;
+    background-color: white;
     display: flex;
     height: 100%;
     width: 100%;
@@ -29,6 +29,9 @@ const Wrapper = styled.div`
 `
 const Container = styled.div`
     background-color: white;
-    display: flex;
-    width: 80%;
+    column-count: 5;
+    column-gap: 10px;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1256px;
 `
