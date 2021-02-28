@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import Pin from './Pin'
-
 function Mainboard(props) {
 
 let { pins } = props;
@@ -28,6 +27,9 @@ const Wrapper = styled.div`
     justify-content: center;
 `
 const Container = styled.div`
+    // display: flex;
+    // flex-wrap: wrap;
+    // align-items: flex-start;
     background-color: white;
     column-count: 5;
     column-gap: 10px;
