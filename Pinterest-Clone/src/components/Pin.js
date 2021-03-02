@@ -26,7 +26,6 @@ align-items: center;
 box-sizing: border-box;
 cursor: pointer;
 width: 236px;
-height: 300px; 
 overflow: hidden; 
 
 img {
@@ -38,7 +37,7 @@ img {
     transition: transform .5s ease;
 }
 
-:hover img {
+:hover img{
     transform: scale(1.5);
   }
 `
