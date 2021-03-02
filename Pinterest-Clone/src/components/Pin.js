@@ -6,7 +6,7 @@ function Pin(props) {
 
     return (
         <Wrapper>
-        <Container>
+        <Container class = 'img-hover-zoom'>
             <img src = {urls.regular} alt = 'pin'/>
         </Container>
     </Wrapper>
@@ -26,6 +26,8 @@ align-items: center;
 box-sizing: border-box;
 cursor: pointer;
 width: 236px;
+height: 300px; 
+overflow: hidden; 
 
 img {
     display: flex;
@@ -33,5 +35,10 @@ img {
     cursor: zoom-in;
     border-radius: 16px;
     object-fit: cover;
+    transition: transform .5s ease;
 }
+
+:hover img {
+    transform: scale(1.5);
+  }
 `
