@@ -26,13 +26,13 @@ align-items: center;
 box-sizing: border-box;
 cursor: pointer;
 width: 236px;
-overflow: hidden; 
+overflow: hidden;
+border-radius: 16px; 
 
 img {
     display: flex;
     width: 100%;
     cursor: zoom-in;
-    border-radius: 16px;
     object-fit: cover;
     transition: transform .5s ease;
 }
